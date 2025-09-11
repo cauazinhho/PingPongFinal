@@ -109,4 +109,9 @@ public class Menu : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }
